@@ -143,17 +143,20 @@ button.task-btn:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px;
+  padding: 0px 10px;
   border-bottom: 1px solid var(--button-hover);
 }
 
 .task-text {
   max-width: 240px;
+  min-width: 100%;
+  text-align: left;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   cursor: pointer;
-  padding-right: 10px;
+  /* padding-right: 10px; */
+  padding: 10px 10px 10px 0;
   color: var(--text-color);
 }
 
